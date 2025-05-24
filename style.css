@@ -1,0 +1,41 @@
+:root{
+    --color-primary:rgb(84, 9, 218);
+    --color-secondary:rgb(209, 159, 159);
+    --color-terciario:rgb(6, 208, 1);
+    --fuente-primaria:'Arial',sans-serif;
+    --tex-color:white;
+    --font-size:15px;
+
+}
+
+
+div{
+    width: 200px;
+    height: 125px;
+    border: 2px solid rgb(39, 36, 36);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+h1{
+    font-family: var(--fuente-primaria);
+    color: var(--tex-color);
+    font-size: var(--font-size);
+
+}
+
+.fig1{
+    background: var(--color-primary);
+    text-align: center;
+}
+
+
+.fig2{
+    background: var(--color-primary);
+}
+
+.fig3,
+.fig4,
+.fig5{
+    background: var(--color-terciario);
+}
